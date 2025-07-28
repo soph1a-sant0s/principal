@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Arial";
+	display: flex-wrap;
+}
+
+body{
+	background: #d9bb27;
+	background: radial-gradient(circle,rgba(217, 187, 39, 1) 0%, rgba(47, 173, 24, 1) 50%, rgba(242, 125, 41, 1) 100%);
+	margin: 20px;
+}
+body, header {
+		margin: 0;
+		padding: 0px;
+}
+/*adicional*/
+header {
+	padding:2px;
+	background: #0A0A0A;
+ 	color: white;
+  text-align: height;
+  width: 100%;
+}
+
+.menu-scroll {
+  display: flex;
+  justify-content:center;
+  align-items: height;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+.menu-horizontal{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 10px;
+}
+
+.menu-horizontal li a{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 1.0);
+	gap: 10px;
+	background:mediumslateblue;
+	border-radius: 8px;
+}
+
+.search-container{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.search-container input[type="text"]{
+	padding: 10px;
+	width: 50%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.search-container button{
+	padding: 10px 15px;
+	background-color:#007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: poniter;
+	font-size: 16px;
+}
+
+.search-container button:hover{
+	background-color: orange;
+	transition: 0.3s;
+}
+
+#product-list{
+	list-style: none;
+	padding: 0;
+	display: flex;/*¨para mostrar los productos en fila.*/
+	flex-wrap: wrap;/*para que se ajusten todos los elemmntos*/
+	gap: 20px;/*espacio entre contenido*/
+	justify-content: center;
+
+}
+
+#product-list li{
+	background-color:#D6B442;/*color de fondo*/
+	border: 1px solid #eee;
+	border-radius: 8px;
+	padding: 15px;
+	width: 400px;/*ancho fijo para cada producto*/
+	text-align: center;
+	align-content: center;
+	height: 350px;
+}
+#products-list li h3{
+	color: black;
+	margin-top: 0;
+}
+#products-list li p{
+	color: #665;
+	font-size: 16px;
+}
+
+.Bloque2{
+	margin-top: 120px;
+	text-align: center;
+	align-content: center;
+	padding: 15px;
+}
+
+.logo{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.logo img{
+	display: inline-block;
+}
+
+.titulos {
+	text-align: center;
+	color: white;
+	padding: 15px;
+}
+
+.imagenes{
+	padding: 15px;
+}
+
+.Bloque1{
+	padding: 25px;
+}

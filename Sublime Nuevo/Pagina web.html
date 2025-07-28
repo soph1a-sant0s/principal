@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sabores de mi Tierra</title>
+	<link rel="stylesheet" type="text/css" href="EstiloPG.css">
+</head>
+<body>
+	<header>
+		<h1>Sabores de mi Tierra</h1>
+		 <nav class="menu-scroll">
+	      <ul class="menu-horizontal">
+	      	<li><a href="#inicio">Inicio</a></li>
+	        <li><a href="#menu">Menú</a></li>
+	        <li><a href="#servicios">Servicios</a></li>
+	        <li><a href="#acerca">Acerca de</a></li>
+	        <li><a href="#redesociales">Redes Sociales</a></li>
+	        <div class="search-container">
+				<input type="text" id="searchInput" placeholder="Buscar Menú...">
+				<button onclick="filterProducts()">Buscar</button>
+			</div>
+	      </ul>
+	    </nav>
+	</header>
+	
+	<div id="inicio" class="Bloque2">
+		<img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gold-round-food-logo-design-template-7b62ff15fce66de85b59a4e212a4b3cc_screen.jpg?ts=1653371868" width="570" height="440 px">
+	</div>	
+	
+	
+	<div id="menu" class="Bloque1"> 
+		<h2 class="titulos">Menú</h2>
+		<ul id="product-list">
+			<li data-category="comidas">
+				<h3>Chuchitos</h3>
+				<p>Elaborados de maíz natural, salsa criolla, pollo o cerdo, envueltos en tusa de maíz, cocidos con leña. </p>
+				<img class="imagenes" src="https://tse4.mm.bing.net/th/id/OIP.gVKrcsDczCrVtrQ2A_SCswAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" width="350" height="225">
+			</li>
+
+
+			<li data-category="comidas">
+				<h3>Churrasco</h3>
+				<p>Preparado con carne fresca y acompañado con guacamol, chirmol, arroz y tortillas.. </p>
+				<img class="imagenes" src="https://i.ytimg.com/vi/M1Ws3cab9nM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBBkEiGc4vleBB2lX7VBQMUSK_TsA" width="350" height="225">
+			</li>
+
+			<li data-category="comidas">
+				<h3>Jocón</h3>
+				<p> Elaborado de pollo, con una salsa especial; con papitas, arroz y tortillas calientes  </p>
+				<img class="imagenes" src="https://aprende.guatemala.com/wp-content/uploads/2016/10/jocon-al-estilo-chapin.webp" width="350" height="225">
+			</li>
+
+			<li data-category="comidas">
+				<h3>Hilachas</h3>
+				<p>Elaborado con una salsa de tomate con especies, carne, arroz, papa y se acompaña de un delicioso aguacate. </p>
+				<img class="imagenes" src="https://lh4.googleusercontent.com/proxy/b5fwU5SdnUgv5wYjXm3TL7jMK8trdOHcr50pJqooSrXXC225E9paLKKKHmJpKesdPiBSVTnuSZgaysC3vvMYe0hqX6ctgBZavsAp-3wReqt22kJ0WaHLASNR7k1VQzgVGJWKoeM38eWQNPEZwmycOj2L69EJ9Kz-ZihE6hVLA1VpRre0m8_8D6Rcsr7Bea3ULVAZT-ke3qQLwpLcRC4UiK1wZQJnvomVKqzqvzuaPq34mSiMOez5bhHpmjkZ7fo4xApS4pAHM9QjyHr3UPII8n2TMw" width="350" height="225">
+			</li>
+			
+		</ul>
+	</div>
+
+	<div id="servicios" class="Bloque1">
+		<h2 class="titulos">Servicios</h2>
+		<ul id="product-list">
+			<li data-category="servicios">
+				<h3>A domicilio</h3>
+				<img class="imagenes" src="https://www.svgrepo.com/show/62907/home-delivery-truck.svg" width="300" height="200">
+				<p>Le brindamos servicio a domicilio contactanos desde nuestras redes sociales.</p>
+			</li>
+
+			<li data-category="servicios">
+				<h3>Quejas</h3>
+				<img class="imagenes" src="https://cdn-icons-png.flaticon.com/512/2519/2519204.png" width="200" height="200">
+				<p>¿Problema con tu orden o servicio? Nos gustaría conocer tu experiencia.</p>
+			</li>
+
+			<li data-category="servicios">
+				<h3>Sugerencias</h3>
+				<img class="imagenes" src="https://cdn-icons-png.flaticon.com/512/2190/2190510.png" width="200" height="200">
+				<p>¿Deseas darnos una sugerencia de mejora en nuestro servicio?</p>
+			</li>
+			
+		</ul>
+		
+	</div>
+
+	<div id="acerca" class="Bloque1">
+		<h2 class="titulos">Acerca de</h2>
+		<ul id="product-list">
+			<li data-category="acerca">
+				  <p>En <strong>Sabores de mi Tierra</strong> celebramos la riqueza de la comida tradicional guatemalteca. Servimos platillos típicos preparados con ingredientes locales y el auténtico sabor chapín. Nuestro ambiente es familiar y acogedor, ideal para disfrutar la cultura y tradición de Guatemala en cada bocado.</p>
+				  <img class="imagenes"src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gold-round-food-logo-design-template-7b62ff15fce66de85b59a4e212a4b3cc_screen.jpg?ts=1653371868" width="250" height="200">
+
+			</li>
+			
+		</ul>
+		
+	</div>
+
+	<div id="redesociales" class="Bloque1">
+		<h2 class="titulos">Redes Sociales</h2>
+		<ul id="product-list">
+			<li data-category="redesociales">
+				<h3>WhatsApp</h3>
+				<img class="imagenes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/2062095_application_chat_communication_logo_whatsapp_icon.svg/2048px-2062095_application_chat_communication_logo_whatsapp_icon.svg.png" width="270" height="225" >
+				<p>3456 7890</p>
+			</li>
+
+
+			<li data-category="redesociales">
+				<h3>Instagram</h3>
+				<img class="imagenes" src="https://www.svgrepo.com/show/299431/instagram.svg" width="270" height="225" >
+				<p>@saboresdemitierra_guate</p>
+			</li>
+
+			<li data-category="redesociales">
+				<h3>Facebook</h3>
+				<img class="imagenes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/2048px-2023_Facebook_icon.svg.png" width="270" height="225" >
+				<p>facebook.com/SaboresDeMiTierraGT</p>
+
+			<li data-category="redesociales">
+				<h3>Telefono</h3>
+				<img class="imagenes" src="https://svgsilh.com/svg/157358.svg" width="270" height="225" >	
+				<p>+502 2222 3344</p>
+			</li>
+			
+		</ul>
+		
+	</div>
+<script src="funcionesPG.js"></script>
+</body>
+</html>
